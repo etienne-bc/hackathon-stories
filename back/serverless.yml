@@ -18,7 +18,11 @@ functions:
       - http:
           path: betclic/stories
           method: get
-  stories-builder:
-    description: This build our stories
-    handler: stories_builder.lambda_handler
+  post-reads:
+    description: This function records read of stories
+    handler: update_reads.lambda_handler
     role: arn:aws:iam::771488198870:role/StoryRole
+    events:
+      - http:
+          path: betclic/stories
+          method: post
