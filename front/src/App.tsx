@@ -1,18 +1,23 @@
 import React from 'react';
-import './App.css';
+import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 import Stories from 'react-insta-stories';
-import { Story } from 'react-insta-stories/dist/interfaces';
+import Loader from 'react-loader-spinner';
+import './App.css';
+import { useStories, useQueryParams } from './hooks';
+import configuration from './config/configuration';
 
 function App() {
-    const stories: Story[] = [
-        {
-            url: 'https://www.volleypack.fr/wp-content/uploads/2020/01/interview-volleypack-jean-patry-2020-4.jpg',
-        },
-        {
-            url: 'https://cdn-s-www.dna.fr/images/261B2D20-FE2E-4058-B1FB-28483A2A220D/NW_raw/lucille-gicquel-(a-gauche)-isaline-sager-weider-(n-12)-nina-stojiljkovic-et-les-bleues-defient-la-redoutable-serbie-en-quart-de-finale-de-l-euro-photo-cev-julien-crosnier-1630443976.jpg',
-        },
-    ];
-    return <Stories stories={stories} defaultInterval={1500} loop={true} width={'100vw'} height={'100vh'} />;
+    const user = useQueryParams(configuration.userQueryParam);
+    const stories = useStories(user);
+    if (!user) return <div>Missing user</div>;
+    if (!stories.length)
+        return (
+            <div className="loader">
+                <Loader type="Puff" color="#d2161e" height={100} width={100} />
+            </div>
+        );
+
+    return <Stories stories={stories} defaultInterval={1500} width={'100vw'} height={'100vh'} />;
 }
 
 export default App;
