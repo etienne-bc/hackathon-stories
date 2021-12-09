@@ -1,0 +1,20 @@
+service: hackhanh-team
+provider:
+  name: aws
+  runtime: python3.8
+  region: eu-west-1
+
+package:
+  exclude:
+    - ./**
+  include:
+    - ./*.py
+functions:
+  get-timeline:
+    description: This function is trigger periodically to transfer RDS tables into Snowflake
+    handler: get_timeline.lambda_handler
+    role: arn:aws:iam::771488198870:role/StoryRole
+    events:
+      - http:
+          path: betclic/stories
+          method: get
