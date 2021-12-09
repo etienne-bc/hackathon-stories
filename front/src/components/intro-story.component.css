@@ -1,0 +1,13 @@
+.introStory {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.introStory div {
+    margin: 20px 0;
+}

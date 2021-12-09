@@ -17,7 +17,7 @@ function App() {
             </div>
         );
 
-    return <Stories stories={stories} defaultInterval={1500} width={'100vw'} height={'100vh'} />;
+    return <Stories stories={stories} defaultInterval={6000} width={'100vw'} height={'100vh'} />;
 }
 
 export default App;

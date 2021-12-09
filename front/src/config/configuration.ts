@@ -1,7 +1,7 @@
 import { Configuration } from '../interfaces/configuration.interface';
 
 const configuration: Configuration = {
-    userQueryParam: 'user',
+    userQueryParam: 'username',
     url: '',
 };
 

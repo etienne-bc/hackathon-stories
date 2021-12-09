@@ -12,8 +12,8 @@ export function useFetch<T>(url: string): useFetchResponse<T> {
             setStatus(FetchStatusEnum.fetching);
             const response = await fetch(url);
             const responseData = (await response.json()) as T;
-            setData(responseData);
             setStatus(FetchStatusEnum.fetched);
+            setData(responseData);
         };
 
         fetchData();
