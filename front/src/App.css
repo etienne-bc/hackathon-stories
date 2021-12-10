@@ -84,6 +84,14 @@ html {
     font-style: normal;
 }
 
+.xxs {
+    font-size: 14px;
+}
+
+.xs {
+    font-size: 18px;
+}
+
 .l {
     font-size: 48px;
 }
@@ -100,12 +108,17 @@ html {
     color: #ffcc00;
 }
 
-.xs {
-    font-size: 18px;
+.odd {
+    font-family: rift-bolditalic;
+    color: black;
+    background-color: #ffcc00;
+    padding: 2px 6px;
+    border-radius: 4px;
 }
 
-.xxs {
-    font-size: 14px;
+.odd.xl {
+    padding: 0px 20px;
+    border-radius: 8px;
 }
 
 .single {

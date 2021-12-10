@@ -5,5 +5,7 @@ export enum StoryTypeEnum {
     LeastPreferedTeam = 'LEAST_PREFERED_TEAM',
     BiggestWin = 'BIGGEST_WIN',
     BiggestWinList = 'BIGGEST_WIN_LIST',
+    BiggestOdds = 'BIGGEST_ODDS',
+    BiggestOddsList = 'BIGGEST_ODDS_LIST',
     ContentCenter = 'CONTENT_CENTER',
 }

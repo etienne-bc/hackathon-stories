@@ -9,6 +9,8 @@ import { LeastFavoriteTeamStory } from '../components/least-favorite-team-story.
 import { FavoriteTeamListStory } from '../components/favorite-team-list-story.component';
 import { BiggestWinStory } from '../components/biggest-win-story.component';
 import { BiggestWinListStory } from '../components/biggest-win-list-story.component';
+import { BiggestOddsStory } from '../components/biggest-odds-story.component';
+import { BiggestOddsListStory } from '../components/biggest-odds-list-story.component';
 
 export function storyBuilder(data: StoryResponse): Story[] {
     return data.map(story => {
@@ -53,6 +55,21 @@ export function storyBuilder(data: StoryResponse): Story[] {
                 return {
                     content: () => <BiggestWinListStory wins={story.payload} />,
                 };
+            case StoryTypeEnum.BiggestOdds:
+                return {
+                    content: () => (
+                        <BiggestOddsStory
+                            odds={story.payload.BIGGEST_ODD_1}
+                            date={story.payload.DATE_BIGGEST_ODD_1}
+                            selection={story.payload.NB_SELECTION_BIGGEST_ODD_1}
+                        />
+                    ),
+                };
+            case StoryTypeEnum.BiggestOddsList:
+                return {
+                    content: () => <BiggestOddsListStory odds={story.payload} />,
+                };
+
             case StoryTypeEnum.ContentCenter:
                 return {
                     content: () => (
@@ -65,6 +82,7 @@ export function storyBuilder(data: StoryResponse): Story[] {
                         />
                     ),
                 };
+
             default:
                 return {
                     content: () => <div>unknown card</div>,

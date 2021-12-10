@@ -76,6 +76,36 @@ export interface BiggestWinListStory extends BaseStory {
     };
 }
 
+export interface BiggestOddsStory extends BaseStory {
+    cardType: StoryTypeEnum.BiggestOdds;
+    payload: {
+        BIGGEST_ODD_1: number;
+        DATE_BIGGEST_ODD_1: string;
+        NB_SELECTION_BIGGEST_ODD_1: number;
+    };
+}
+
+export interface BiggestOddsListStory extends BaseStory {
+    cardType: StoryTypeEnum.BiggestOddsList;
+    payload: {
+        BIGGEST_ODD_1: number;
+        DATE_BIGGEST_ODD_1: string;
+        NB_SELECTION_BIGGEST_ODD_1: number;
+        BIGGEST_ODD_2: number;
+        DATE_BIGGEST_ODD_2: string;
+        NB_SELECTION_BIGGEST_ODD_2: number;
+        BIGGEST_ODD_3: number;
+        DATE_BIGGEST_ODD_3: string;
+        NB_SELECTION_BIGGEST_ODD_3: number;
+        BIGGEST_ODD_4: number;
+        DATE_BIGGEST_ODD_4: string;
+        NB_SELECTION_BIGGEST_ODD_4: number;
+        BIGGEST_ODD_5: number;
+        DATE_BIGGEST_ODD_5: string;
+        NB_SELECTION_BIGGEST_ODD_5: number;
+    };
+}
+
 export interface ContentCenter extends BaseStory {
     cardType: StoryTypeEnum.ContentCenter;
     payload: { title: string; image_url: string; text: string; link_text: string; app_link: string; web_link: string };
@@ -88,5 +118,7 @@ export type StoryResponse = Array<
     | LeastPreferedTeamStory
     | BiggestWinStory
     | BiggestWinListStory
+    | BiggestOddsStory
+    | BiggestOddsListStory
     | ContentCenter
 >;
