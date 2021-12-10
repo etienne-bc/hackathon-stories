@@ -18,7 +18,12 @@ function App() {
             </div>
         );
 
-    return <Stories stories={stories} defaultInterval={6000} width={'100vw'} height={'100vh'} />;
+    return (
+        <>
+            <Stories stories={stories} defaultInterval={6000} width={'100vw'} height={'100vh'} />;
+            <audio autoPlay={true} src="/win.mp3"></audio>
+        </>
+    );
 }
 
 export default App;

@@ -33,40 +33,30 @@ export const BiggestWinListStory = ({ wins }: { wins: Wins }) => {
             <div className="list xs">
                 <div>
                     <div>1. {getLabel(wins.NB_SELECTION_BIGGEST_WIN_1)}</div>
-                    <div className="yellow">
-                        {wins.BIGGEST_WIN_1} <span className="xxs">paris</span>
-                    </div>
+                    <div className="yellow">{wins.BIGGEST_WIN_1}&nbsp;€</div>
                 </div>
                 {wins.BIGGEST_WIN_2 && (
                     <div>
                         <div>2. {getLabel(wins.NB_SELECTION_BIGGEST_WIN_2)}</div>
-                        <div className="yellow">
-                            {wins.BIGGEST_WIN_2} <span className="xxs">paris</span>
-                        </div>
+                        <div className="yellow">{wins.BIGGEST_WIN_2}&nbsp;€</div>
                     </div>
                 )}
                 {wins.BIGGEST_WIN_3 && (
                     <div>
                         <div>2. {getLabel(wins.NB_SELECTION_BIGGEST_WIN_3)}</div>
-                        <div className="yellow">
-                            {wins.BIGGEST_WIN_3} <span className="xxs">paris</span>
-                        </div>
+                        <div className="yellow">{wins.BIGGEST_WIN_3}&nbsp;€</div>
                     </div>
                 )}
                 {wins.BIGGEST_WIN_4 && (
                     <div>
                         <div>2. {getLabel(wins.NB_SELECTION_BIGGEST_WIN_4)}</div>
-                        <div className="yellow">
-                            {wins.BIGGEST_WIN_4} <span className="xxs">paris</span>
-                        </div>
+                        <div className="yellow">{wins.BIGGEST_WIN_4}&nbsp;€</div>
                     </div>
                 )}
                 {wins.BIGGEST_WIN_5 && (
                     <div>
                         <div>2. {getLabel(wins.NB_SELECTION_BIGGEST_WIN_5)}</div>
-                        <div className="yellow">
-                            {wins.BIGGEST_WIN_5} <span className="xxs">paris</span>
-                        </div>
+                        <div className="yellow">{wins.BIGGEST_WIN_5}&nbsp;€</div>
                     </div>
                 )}
             </div>

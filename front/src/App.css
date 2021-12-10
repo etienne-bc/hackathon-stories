@@ -121,6 +121,10 @@ html {
     border-radius: 8px;
 }
 
+audio {
+    display: none;
+}
+
 .single {
     display: flex;
     align-items: center;
