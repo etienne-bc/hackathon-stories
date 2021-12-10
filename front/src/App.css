@@ -107,3 +107,41 @@ html {
 .xxs {
     font-size: 14px;
 }
+
+.single {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.single div {
+    margin: 20px 0;
+}
+
+.listComponent {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.listComponent > div {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.listComponent .list > div {
+    box-sizing: border-box;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}

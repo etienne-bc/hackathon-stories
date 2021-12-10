@@ -16,7 +16,7 @@ interface Teams {
 
 export const FavoriteTeamListStory = ({ teams }: { teams: Teams }) => {
     return (
-        <div className="favoriteTeamListStory">
+        <div className="listComponent">
             <div>
                 Les équipes que tu voyais
                 <br />
@@ -29,30 +29,38 @@ export const FavoriteTeamListStory = ({ teams }: { teams: Teams }) => {
                         {teams.NB_BET_FAVORITE_TEAM_1} <span className="xxs">paris</span>
                     </div>
                 </div>
-                <div>
-                    <div>2. {teams.FAVORITE_TEAM_2}</div>
-                    <div className="yellow">
-                        {teams.NB_BET_FAVORITE_TEAM_2} <span className="xxs">paris</span>
+                {teams.NB_BET_FAVORITE_TEAM_2 && (
+                    <div>
+                        <div>2. {teams.FAVORITE_TEAM_2}</div>
+                        <div className="yellow">
+                            {teams.NB_BET_FAVORITE_TEAM_2} <span className="xxs">paris</span>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div>3. {teams.FAVORITE_TEAM_3}</div>
-                    <div className="yellow">
-                        {teams.NB_BET_FAVORITE_TEAM_3} <span className="xxs">paris</span>
+                )}
+                {teams.NB_BET_FAVORITE_TEAM_3 && (
+                    <div>
+                        <div>2. {teams.FAVORITE_TEAM_3}</div>
+                        <div className="yellow">
+                            {teams.NB_BET_FAVORITE_TEAM_3} <span className="xxs">paris</span>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div>4. {teams.FAVORITE_TEAM_4}</div>
-                    <div className="yellow">
-                        {teams.NB_BET_FAVORITE_TEAM_4} <span className="xxs">paris</span>
+                )}
+                {teams.NB_BET_FAVORITE_TEAM_4 && (
+                    <div>
+                        <div>2. {teams.FAVORITE_TEAM_4}</div>
+                        <div className="yellow">
+                            {teams.NB_BET_FAVORITE_TEAM_4} <span className="xxs">paris</span>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div>5. {teams.FAVORITE_TEAM_5}</div>
-                    <div className="yellow">
-                        {teams.NB_BET_FAVORITE_TEAM_5} <span className="xxs">paris</span>
+                )}
+                {teams.NB_BET_FAVORITE_TEAM_5 && (
+                    <div>
+                        <div>2. {teams.FAVORITE_TEAM_5}</div>
+                        <div className="yellow">
+                            {teams.NB_BET_FAVORITE_TEAM_5} <span className="xxs">paris</span>
+                        </div>
                     </div>
-                </div>
+                )}
             </div>
         </div>
     );
