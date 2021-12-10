@@ -20,9 +20,6 @@ interface Days {
 }
 
 export const BestDayListStory = ({ days }: { days: Days }) => {
-    const getLabel = (nbSelection: number) =>
-        nbSelection === 1 ? 'Pari simple' : `Combiné de ${nbSelection} sélections`;
-
     return (
         <div className="listComponent">
             <div>
