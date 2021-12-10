@@ -1,0 +1,360 @@
+[{
+    "identifier": 778,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "36ce7092-e128-4a0f-be90-65dd5a72d20d",
+        "category_identifier": 3,
+        "start_date": 1634115658000,
+        "end_date": 1656622858000,
+        "title": "💥 Betclic t'offre tes places ! 🎫 ",
+        "text": "👉 Choisis ton match & participe au tirage au sort pour gagner tes places pour supporter tes équipes préférées de Ligue 1 Uber Eats, Ligue 2 BKT, Top 14 et Betclic ÉLITE ! 😍",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr//betclicFR/Sport/CONTENT/content_center/news/octobre/cc_ticketing.jpg",
+        "link_type": "INTERNAL",
+        "link_text": "Je bascule dans le game 🔄",
+        "app_link": "https://basculedanslegameavecbetclic.fr/",
+        "web_link": "https://basculedanslegameavecbetclic.fr/"
+    }
+},
+{
+    "identifier": 829,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "1193fec7-2639-4014-bffb-c8f755afe678",
+        "category_identifier": 1,
+        "start_date": 1635670826000,
+        "end_date": 1652649097000,
+        "title": "Le top 3 des paris en Live sur ton app 🔥",
+        "text": "Toutes les meilleures cotes en Live sont ici ! Tu es indécis ? La #TeamParieurs t'aide : leurs paris les + placés lors des 5 dernières minutes se retrouvent tout en haut des paris en LIVE ! 😉 ",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr//betclicFR//Sport/CONTENT/content_center/news/septembre/CC_Hotbets.jpg",
+        "link_type": "INTERNAL",
+        "link_text": "Je parie en LIVE 🤳",
+        "app_link": "betclicsports://all_bets",
+        "web_link": "calendar"
+    }
+},
+{
+    "identifier": 830,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "0703021c-08e7-4fcb-97b2-d58e80f54944",
+        "category_identifier": 3,
+        "start_date": 1633112805000,
+        "end_date": 1651325233000,
+        "title": "🏀 Bascule en mode Betclic ÉLITE ! 🇫🇷 ",
+        "text": "Un nouveau show commence sur les parquets ... et sur ton app' 📲 ! Plonge dès maintenant dans l'expérience Betclic ÉLITE avec une offre inédite (+ de 175 paris par match 😱), et vis 100% des matchs sur ta Betclic TV 📺.",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr///betclicFR/Sport/CONTENT/content_center/betting/octobre/cc_start_betclic_elite.jpg",
+        "link_type": "INTERNAL",
+        "link_text": "Je parie sur la Betclic ÉLITE",
+        "app_link": "betclicsportsfr://competition/15",
+        "web_link": "/basket-ball-s4/betclic-elite-c15"
+    }
+},
+{
+    "identifier": 903,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "25a9461c-2846-4b41-8a1f-aaa9c59d182e",
+        "category_identifier": 3,
+        "start_date": 1638529214000,
+        "end_date": 1640991554000,
+        "title": "🤑 Le jackpot pour P-J ! 💥 ",
+        "text": "Une paire de 6 dont le joueur corse se souviendra longtemps ! 👌 Après 8 minutes de jeu, P-J quitte la table avec 400.000€ en poche (mise 200€) ! 🤯",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr//betclicFR/Sport/CONTENT/poker/0112_cc_gg_pierrejean.jpg",
+        "link_type": "INTERNAL",
+        "link_text": "👉 Je lance un Twister Poker ",
+        "app_link": "betclicsports://poker",
+        "web_link": "betclicsports://poker"
+    }
+},
+{
+    "identifier": 905,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "e3245c4c-2be7-4e06-95ec-541d345c9d48",
+        "category_identifier": 1,
+        "start_date": 1638550805000,
+        "end_date": 1640989805000,
+        "title": "Cotes XXLIVE = gains XXLIVE ! 📲",
+        "text": "Vis les plus grands événements de décembre avec nos grosses cotes LIVE ! 📈",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr//betclicFR/Sport/CONTENT/promotion/2021/decembre_xxlive/CC_xxlive.jpg",
+        "link_type": "INTERNAL",
+        "link_text": "Je veux en savoir +",
+        "app_link": "betclicsportsfr://challenge/8191",
+        "web_link": "/content/spo_decxxlive"
+    }
+},
+{
+    "identifier": 881,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "1b3361f2-ac33-49ad-b937-fada027ede97",
+        "category_identifier": 1,
+        "start_date": 1637586771957,
+        "end_date": 1640956373000,
+        "title": "Rudy organise ses vacances ! ☀  ",
+        "text": "Les championnats n'ont plus de secret pour lui. Rudy vient de valider un combiné exotique de 18 sélections et repart avec 26 664€ ! 😮 ",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr///betclicFR/Sport/CONTENT/pages_content/gg/2021/20211122_Rudy-Header.jpg.png",
+        "link_type": "INTERNAL",
+        "link_text": "Je découvre son ticket 📲 ",
+        "app_link": "betclicsportsfr://challenge/8172",
+        "web_link": "/content/spo_gg22"
+    }
+},
+{
+    "identifier": 913,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "6d5709a3-dd5c-438c-b68b-5c129ba4cb07",
+        "category_identifier": 3,
+        "start_date": 1638545447000,
+        "end_date": 1640645987000,
+        "title": "🎅 Jehat a préparé sa playlist ! 🎤 ",
+        "text": "Jehat décroche le 2ème gros lot du calendrier de l'Avent Betclic ! 🎉 Tente aussi ta chance de faire partie des + de 100 gagnants par jour ! [👀 Tous les gagnants seront contactés par mail 📧]",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr//betclicFR/Sport/CONTENT/poker/2021_advent_calendar/Avent_CC_GAGNANT_Tournoi_2.jpg",
+        "link_type": "EXTERNAL",
+        "link_text": "Je découvre les cadeaux du jour 🎁",
+        "app_link": "https://www.betclic.fr/poker/content/pok_avent2021",
+        "web_link": "https://www.betclic.fr/poker/content/pok_avent2021"
+    }
+},
+{
+    "identifier": 909,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "c590f04a-f434-4905-b01e-013c26747008",
+        "category_identifier": 3,
+        "start_date": 1638457225000,
+        "end_date": 1640645965000,
+        "title": "🎅 Allô Michaël ? 📞 ",
+        "text": "Il est le premier en France à ouvrir ses cadeaux de Noël ! 😜 Michaël remporte le smartphone mis en jeu le 1er décembre. [👀 Tous les gagnants seront contactés par mail 📧]",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr//betclicFR/Sport/CONTENT/poker/2021_advent_calendar/Avent_CC_GAGNANT_Tournoi_1.jpg",
+        "link_type": "EXTERNAL",
+        "link_text": "Je découvre les cadeaux du jour 🎁",
+        "app_link": "https://www.betclic.fr/poker/content/pok_avent2021",
+        "web_link": "https://www.betclic.fr/poker/content/pok_avent2021"
+    }
+},
+{
+    "identifier": 915,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "3dc90a98-89f3-47d1-8ff8-d41bb307b606",
+        "category_identifier": 3,
+        "start_date": 1638727225000,
+        "end_date": 1640645965000,
+        "title": "🎢 La tête à l'envers pour Gaëtan ! 🎅 ",
+        "text": "Il va pouvoir enchaîner les tours de grand huit ! 🤪 Tente aussi ta chance de faire partie des + de 100 gagnants par jour ! [👀 Tous les gagnants seront contactés par mail 📧]",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr//betclicFR/Sport/CONTENT/poker/2021_advent_calendar/Avent_CC_GAGNANT_Tournoi_4.jpg",
+        "link_type": "EXTERNAL",
+        "link_text": "Je découvre les cadeaux du jour 🎁",
+        "app_link": "https://www.betclic.fr/poker/content/pok_avent2021",
+        "web_link": "https://www.betclic.fr/poker/content/pok_avent2021"
+    }
+},
+{
+    "identifier": 959,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "de0b73c9-4abe-44f2-9c53-cb810378a65a",
+        "category_identifier": 3,
+        "start_date": 1638975615000,
+        "end_date": 1640645955000,
+        "title": "🎮 \"T'as vu Paul ?\" 🎅",
+        "text": "Il fait de la place à côté de la TV dans son salon ! 🤩 Tente aussi ta chance de faire partie des + de 100 gagnants par jour ! [👀 Tous les gagnants seront contactés par mail 📧]",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr//betclicFR/Sport/CONTENT/poker/2021_advent_calendar/Avent_CC_GAGNANT_Tournoi_7.jpg",
+        "link_type": "EXTERNAL",
+        "link_text": "Je découvre les cadeaux du jour 🎁",
+        "app_link": "https://www.betclic.fr/poker/content/pok_avent2021",
+        "web_link": "https://www.betclic.fr/poker/content/pok_avent2021"
+    }
+},
+{
+    "identifier": 926,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "3226dca1-b2b5-4dbe-bd80-2fa199c944be",
+        "category_identifier": 3,
+        "start_date": 1638892809000,
+        "end_date": 1640645949000,
+        "title": "⌚ Calories, GPS, ... et même l'heure ! 🎅 ",
+        "text": "Cette montre va simplifier la vie de Lucas ! ✅ Tente aussi ta chance de faire partie des + de 100 gagnants par jour ! [👀 Tous les gagnants seront contactés par mail 📧] ",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr//betclicFR/Sport/CONTENT/poker/2021_advent_calendar/Avent_CC_GAGNANT_Tournoi_6.jpg",
+        "link_type": "EXTERNAL",
+        "link_text": "Je découvre les cadeaux du jour 🎁",
+        "app_link": "https://www.betclic.fr/poker/content/pok_avent2021",
+        "web_link": "https://www.betclic.fr/poker/content/pok_avent2021"
+    }
+},
+{
+    "identifier": 919,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "d818f12d-eb49-478a-942e-4adce36dc8ca",
+        "category_identifier": 3,
+        "start_date": 1638804602000,
+        "end_date": 1640645942000,
+        "title": "⚡ Luca va envoyer les watts ! 🎅 ",
+        "text": "Tour de France, Giro et Vuelta : il a déjà son programme en tête ! 🚴 Tente aussi ta chance de faire partie des + de 100 gagnants par jour ! [👀 Tous les gagnants seront contactés par mail 📧]",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr//betclicFR/Sport/CONTENT/poker/2021_advent_calendar/Avent_CC_GAGNANT_Tournoi_5.jpg",
+        "link_type": "INTERNAL",
+        "link_text": "Je lance un Twister Poker 📲",
+        "app_link": "betclicsports://poker",
+        "web_link": "betclicsports://poker"
+    }
+},
+{
+    "identifier": 895,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "0e121569-fafc-44f7-977d-3da65f8b3aea",
+        "category_identifier": 3,
+        "start_date": 1638358243000,
+        "end_date": 1640386783000,
+        "title": "♠ Un ÉNOOOORME sapin ... 🎄",
+        "text": "... pour y mettre tous les cadeaux à remporter : smartphones, consoles de jeu, places de matchs ... 📱🎮🎫 Gagne 1 Twister Poker (mise min. 5€) chaque jour pour tenter ta chance ! ✅",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr//betclicFR/Sport/CONTENT/poker/POK_CalendrierAvent_ContentCenter_1.jpg",
+        "link_type": "EXTERNAL",
+        "link_text": "Je découvre le calendrier de l'Avent 🎅",
+        "app_link": "https://www.betclic.fr/poker/content/pok_avent2021",
+        "web_link": "https://www.betclic.fr/poker/content/pok_avent2021"
+    }
+},
+{
+    "identifier": 882,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "98c6f599-8053-4121-9ba8-0cb2565d31ae",
+        "category_identifier": 3,
+        "start_date": 1637665208000,
+        "end_date": 1639954748000,
+        "title": "🆕 Betclic Ballerz League 🏀 ",
+        "text": "Tente de disputer le plus grand tournoi de Basket 3x3 au monde : le Spokane Hoopfest de Seattle ! 🇺🇸 Inscris ton équipe dès maintenant ! 📢",
+        "banner_type": "YOUTUBE",
+        "banner_url": "zQ21kMLiJ54",
+        "link_type": "INTERNAL",
+        "link_text": "Je bascule dans la Betclic Ballerz League 🔄",
+        "app_link": "https://elite.betclic.fr",
+        "web_link": "https://elite.betclic.fr"
+    }
+},
+{
+    "identifier": 882,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "98c6f599-8053-4121-9ba8-0cb2565d31ae",
+        "category_identifier": 3,
+        "start_date": 1637665208000,
+        "end_date": 1639954748000,
+        "title": "🆕 Betclic Ballerz League 🏀 ",
+        "text": "Tente de disputer le plus grand tournoi de Basket 3x3 au monde : le Spokane Hoopfest de Seattle ! 🇺🇸 Inscris ton équipe dès maintenant ! 📢",
+        "banner_type": "YOUTUBE",
+        "banner_url": "zQ21kMLiJ54",
+        "link_type": "INTERNAL",
+        "link_text": "Je bascule dans la Betclic Ballerz League 🔄",
+        "app_link": "https://elite.betclic.fr",
+        "web_link": "https://elite.betclic.fr"
+    }
+},
+{
+    "identifier": 892,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "d6295d76-b45d-4f2f-abeb-b7d7712c87c7",
+        "category_identifier": 1,
+        "start_date": 1638187259000,
+        "end_date": 1639349999000,
+        "title": "🌴 RDV sur l'île ! 🥥  ",
+        "text": "Tu es un aventurier dans l'âme ? 💪 Vis 2 semaines de Défis pour valider l’épreuve de la plus grosse cote pour remporter 1000€ CASH ! 💲 ",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr///betclicFR/Sport/CONTENT/content_center/betting/novembre/29-11%20-%20Survivor.jpg",
+        "link_type": "INTERNAL",
+        "link_text": "Je découvre les règles du jeu",
+        "app_link": "betclicsportsfr://challenge/8188",
+        "web_link": "/content/spo_gg221021"
+    }
+},
+{
+    "identifier": 900,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "b3df4f0b-5758-457f-b945-caf603ae5924",
+        "category_identifier": 1,
+        "start_date": 1638363605000,
+        "end_date": 1639349945000,
+        "title": "Qui détrônera Gregory ? 🏆 ",
+        "text": "Le joueur de l'Oise a pris la tête du classement avec un combi ... inattendu ! 😲",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr//betclicFR/Sport/promotions/2021/survivor21/svr_gregory.jpg",
+        "link_type": "INTERNAL",
+        "link_text": "Je veux voir son ticket 🌴",
+        "app_link": "betclicsportsfr://challenge/8188",
+        "web_link": "/content/spo_svr21"
+    }
+},
+{
+    "identifier": 918,
+    "application": "BETCLIC.FR",
+    "type": "NEWS",
+    "status": "ONLINE",
+    "card": {
+        "identifier": "affb19eb-f6d7-435c-bf78-2f7bfa9df463",
+        "category_identifier": 1,
+        "start_date": 1638792003000,
+        "end_date": 1639349943000,
+        "title": "Qui détrônera Stefanel ? 🏆",
+        "text": "Du Kosovo à l'Allemagne en passant par la Macédoine ... Stefanel est un aventurier sans frontières ! 🌎",
+        "banner_type": "PICTURE",
+        "banner_url": "https://betclick.hs.llnwd.net/r1/media/retention/frfr//betclicFR/Sport/promotions/2021/survivor21/svr_stefanel.jpg",
+        "link_type": "INTERNAL",
+        "link_text": "Je veux voir son ticket 🌴",
+        "app_link": "betclicsportsfr://challenge/8188",
+        "web_link": "/content/spo_svr21"
+    }
+}]

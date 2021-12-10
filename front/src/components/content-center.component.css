@@ -1,0 +1,16 @@
+.contentCenter {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+
+    background-color: white;
+    color: black;
+}
+
+.contentCenter div {
+    margin: 20px 0;
+}

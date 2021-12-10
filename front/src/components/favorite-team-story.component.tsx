@@ -11,7 +11,7 @@ export const FavoriteTeamStory = ({ team, count }: { team: string; count: number
             <div className="xl">{team}</div>
             <div className="yellow xl">
                 <span className="xxl">{count}</span>
-                PARIS
+                &nbsp;PARIS
             </div>
         </div>
     );
