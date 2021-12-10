@@ -9,7 +9,6 @@ export function useStories(username: string): Story[] {
     const [stories, setStories] = useState<Story[]>([]);
 
     let { data } = useFetch<StoryResponse>(url);
-    console.log({ data, stories });
     if (data?.length && !stories.length) {
         setStories(storyBuilder(data));
     }
