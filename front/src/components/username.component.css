@@ -6,7 +6,17 @@
     margin: 20px;
 }
 
+.username .logo {
+    width: 200px;
+    margin: 40px auto;
+}
+
 .username input {
+    background-color: transparent;
+    color: white;
+    padding: 4px;
+    border: solid 1px white;
+    border-radius: 4px;
     width: 100%;
     margin: 20px 0;
     font-size: 36px;

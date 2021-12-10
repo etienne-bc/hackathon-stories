@@ -16,6 +16,7 @@ export const Username = () => {
 
     return (
         <div className="username">
+            <img src="/Logo.svg" className="logo" alt="logo" />
             <span>Merci de choisir votre username</span>
             <input value={value} onChange={e => setValue(e.target.value)} type="search" />
             <div>
