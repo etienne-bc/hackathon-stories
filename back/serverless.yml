@@ -26,3 +26,11 @@ functions:
       - http:
           path: betclic/stories
           method: post
+  get-users:
+    description: This function provide data to our frontend
+    handler: get_users.lambda_handler
+    role: arn:aws:iam::771488198870:role/StoryRole
+    events:
+      - http:
+          path: betclic/users
+          method: get

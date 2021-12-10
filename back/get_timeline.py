@@ -44,13 +44,18 @@ def lambda_handler(event, context):
             "title": item["title"]["S"], 
             "date": item["date"]["N"], 
             "firstname": item["firstname"]["S"], 
-            "story": item["story"]["N"], 
+            "city": item["city"]["S"], 
+            "story_id": item["story_id"]["S"],
+            "rank": item["rank"]["N"], 
             "cardType": item["cardType"]["S"],
             "payload": temp_payload,
-            "username": item["username"]["S"],
-            "is_read": item["isRead"]["BOOL"]
+            "is_read": item["isRead"]["BOOL"],
+            "username": item["username"]["S"]
+
         } 
         result.append(dictionary)
+        
+    result = sorted(result, key=lambda d: d['rank']) 
   
     return {
         "statusCode": 200,
