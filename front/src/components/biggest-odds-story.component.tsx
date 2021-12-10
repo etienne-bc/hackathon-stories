@@ -8,7 +8,7 @@ export const BiggestOddsStory = ({ odds, date, selection }: { date: string; odds
             <div>
                 <img src="/cible.svg" alt="heart" />
             </div>
-            <div className="xs">Ta plus grosse côte gagnante</div>
+            <div className="xs">Ta plus grosse cote gagnante</div>
             <div className="odd xl">{odds}</div>
             <div className="xs">Tu dois encore t'en souvenir</div>
             <div className="xs">C'était le {dayMonth(date)}</div>

@@ -26,7 +26,7 @@ export const BiggestOddsListStory = ({ odds }: { odds: OddssList }) => {
     return (
         <div className="listComponent">
             <div>
-                Tes <span className="yellow">plus grosses côtes</span>
+                Tes <span className="yellow">plus grosses cotes</span>
                 <br />
                 gagnées cette année
             </div>

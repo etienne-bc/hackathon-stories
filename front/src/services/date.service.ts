@@ -1,4 +1,5 @@
 const months = [
+    undefined,
     'Janvier',
     'Février',
     'Mars',
