@@ -8,7 +8,8 @@ export function useStories(username: string): Story[] {
     const url = `https://gb04wxeoel.execute-api.eu-west-1.amazonaws.com/dev/betclic/stories?username=${username}`;
     const [stories, setStories] = useState<Story[]>([]);
 
-    const { data } = useFetch<StoryResponse>(url);
+    let { data } = useFetch<StoryResponse>(url);
+    console.log({ data, stories });
     if (data?.length && !stories.length) {
         setStories(storyBuilder(data));
     }

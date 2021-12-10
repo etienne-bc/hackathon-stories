@@ -7,7 +7,7 @@ export const FavoriteTeamStory = ({ team, count }: { team: string; count: number
             <div>
                 <img src="/heart.svg" alt="heart" />
             </div>
-            <div>Ton équipe de cœur</div>
+            <div className="">Ton équipe de cœur</div>
             <div className="xl">{team}</div>
             <div className="yellow xl">
                 <span className="xxl">{count}</span>
