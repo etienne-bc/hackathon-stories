@@ -5,11 +5,12 @@ import Loader from 'react-loader-spinner';
 import './App.css';
 import { useStories, useQueryParams } from './hooks';
 import configuration from './config/configuration';
+import { Username } from './components/username.component';
 
 function App() {
     const user = useQueryParams(configuration.userQueryParam);
     const stories = useStories(user);
-    if (!user) return <div>Missing user</div>;
+    if (!user) return <Username />;
     if (!stories.length)
         return (
             <div className="loader">

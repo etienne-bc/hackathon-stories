@@ -18,7 +18,9 @@ export const FavoriteTeamListStory = ({ teams }: { teams: Teams }) => {
     return (
         <div className="favoriteTeamListStory">
             <div>
-                Les équipes que tu voyais <span className="yellow">le + gagner</span> en 2021
+                Les équipes que tu voyais
+                <br />
+                <span className="yellow">le + gagner</span> en 2021
             </div>
             <div className="list xs">
                 <div>
