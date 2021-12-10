@@ -38,4 +38,9 @@ export interface FavoriteTeamListStory extends BaseStory {
     };
 }
 
-export type StoryResponse = Array<IntroStory | FavoriteTeamStory | FavoriteTeamListStory>;
+export interface ContentCenter extends BaseStory {
+    cardType: StoryTypeEnum.ContentCenter;
+    payload: { title: string; image_url: string; text: string; link_text: string; app_link: string; web_link: string };
+}
+
+export type StoryResponse = Array<IntroStory | FavoriteTeamStory | FavoriteTeamListStory | ContentCenter>;

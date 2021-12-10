@@ -1,6 +1,7 @@
 import React from 'react';
 import { Story } from 'react-insta-stories/dist/interfaces';
 import { StoryResponse } from '../interfaces/story-response.interface';
+import { ContentCenter } from '../components/content-center.component';
 import { StoryTypeEnum } from '../enums/story-type.enum';
 import { IntroStory } from '../components/intro-story.component';
 import { FavoriteTeamStory } from '../components/favorite-team-story.component';
@@ -22,12 +23,29 @@ export function storyBuilder(data: StoryResponse): Story[] {
                         />
                     ),
                 };
+<<<<<<< HEAD
             /*
             case StoryTypeEnum.FavoriteTeamList:
                 return {
                     content: () => <FavoriteTeamListStory teams={story.payload} />,
                 };
 */
+||||||| parent of 9a5e31c (Add content Center stories)
+
+=======
+            case StoryTypeEnum.ContentCenter:
+                return {
+                    content: () => (
+                        <ContentCenter
+                            title={story.payload.title}
+                            image_url={story.payload.image_url}
+                            text={story.payload.text}
+                            link_text={story.payload.link_text}
+                            web_link={story.payload.web_link}
+                        />
+                    ),
+                };
+>>>>>>> 9a5e31c (Add content Center stories)
             default:
                 return {
                     content: () => <div>unknown card</div>,
