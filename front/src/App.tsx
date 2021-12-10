@@ -20,7 +20,9 @@ function App() {
 
     return (
         <>
+            <img src="/Logo.svg" className="logo-tiny" alt="logo" />
             <Stories stories={stories} defaultInterval={6000} width={'100vw'} height={'100vh'} />
+            <div className="share">Partager</div>
             <audio autoPlay={true} src="/win.mp3"></audio>
         </>
     );

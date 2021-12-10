@@ -29,7 +29,7 @@ export const FavoriteTeamListStory = ({ teams }: { teams: Teams }) => {
                         {teams.NB_BET_FAVORITE_TEAM_1} <span className="xxs">paris</span>
                     </div>
                 </div>
-                {teams.NB_BET_FAVORITE_TEAM_2 && (
+                {teams.NB_BET_FAVORITE_TEAM_2 !== 0 && (
                     <div>
                         <div>2. {teams.FAVORITE_TEAM_2}</div>
                         <div className="yellow">
@@ -37,25 +37,25 @@ export const FavoriteTeamListStory = ({ teams }: { teams: Teams }) => {
                         </div>
                     </div>
                 )}
-                {teams.NB_BET_FAVORITE_TEAM_3 && (
+                {teams.NB_BET_FAVORITE_TEAM_3 !== 0 && (
                     <div>
-                        <div>2. {teams.FAVORITE_TEAM_3}</div>
+                        <div>3. {teams.FAVORITE_TEAM_3}</div>
                         <div className="yellow">
                             {teams.NB_BET_FAVORITE_TEAM_3} <span className="xxs">paris</span>
                         </div>
                     </div>
                 )}
-                {teams.NB_BET_FAVORITE_TEAM_4 && (
+                {teams.NB_BET_FAVORITE_TEAM_4 !== 0 && (
                     <div>
-                        <div>2. {teams.FAVORITE_TEAM_4}</div>
+                        <div>4. {teams.FAVORITE_TEAM_4}</div>
                         <div className="yellow">
                             {teams.NB_BET_FAVORITE_TEAM_4} <span className="xxs">paris</span>
                         </div>
                     </div>
                 )}
-                {teams.NB_BET_FAVORITE_TEAM_5 && (
+                {teams.NB_BET_FAVORITE_TEAM_5 !== 0 && (
                     <div>
-                        <div>2. {teams.FAVORITE_TEAM_5}</div>
+                        <div>5. {teams.FAVORITE_TEAM_5}</div>
                         <div className="yellow">
                             {teams.NB_BET_FAVORITE_TEAM_5} <span className="xxs">paris</span>
                         </div>

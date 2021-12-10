@@ -35,27 +35,27 @@ export const BiggestOddsListStory = ({ odds }: { odds: OddssList }) => {
                     <div>1. {getLabel(odds.NB_SELECTION_BIGGEST_ODD_1)}</div>
                     <div className="odd">{odds.BIGGEST_ODD_1}</div>
                 </div>
-                {odds.BIGGEST_ODD_2 && (
+                {odds.BIGGEST_ODD_2 !== 0 && (
                     <div>
                         <div>2. {getLabel(odds.NB_SELECTION_BIGGEST_ODD_2)}</div>
                         <div className="odd">{odds.BIGGEST_ODD_2}</div>
                     </div>
                 )}
-                {odds.BIGGEST_ODD_3 && (
+                {odds.BIGGEST_ODD_3 !== 0 && (
                     <div>
-                        <div>2. {getLabel(odds.NB_SELECTION_BIGGEST_ODD_3)}</div>
+                        <div>3. {getLabel(odds.NB_SELECTION_BIGGEST_ODD_3)}</div>
                         <div className="odd">{odds.BIGGEST_ODD_3}</div>
                     </div>
                 )}
-                {odds.BIGGEST_ODD_4 && (
+                {odds.BIGGEST_ODD_4 !== 0 && (
                     <div>
-                        <div>2. {getLabel(odds.NB_SELECTION_BIGGEST_ODD_4)}</div>
+                        <div>4. {getLabel(odds.NB_SELECTION_BIGGEST_ODD_4)}</div>
                         <div className="odd">{odds.BIGGEST_ODD_4}</div>
                     </div>
                 )}
-                {odds.BIGGEST_ODD_5 && (
+                {odds.BIGGEST_ODD_5 !== 0 && (
                     <div>
-                        <div>2. {getLabel(odds.NB_SELECTION_BIGGEST_ODD_5)}</div>
+                        <div>5. {getLabel(odds.NB_SELECTION_BIGGEST_ODD_5)}</div>
                         <div className="odd">{odds.BIGGEST_ODD_5}</div>
                     </div>
                 )}

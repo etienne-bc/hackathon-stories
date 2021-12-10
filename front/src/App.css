@@ -125,6 +125,22 @@ audio {
     display: none;
 }
 
+.logo-tiny {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 100px;
+    z-index: 100;
+}
+
+.share {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
 .single {
     display: flex;
     align-items: center;

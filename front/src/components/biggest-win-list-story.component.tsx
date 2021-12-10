@@ -35,27 +35,27 @@ export const BiggestWinListStory = ({ wins }: { wins: Wins }) => {
                     <div>1. {getLabel(wins.NB_SELECTION_BIGGEST_WIN_1)}</div>
                     <div className="yellow">{wins.BIGGEST_WIN_1}&nbsp;€</div>
                 </div>
-                {wins.BIGGEST_WIN_2 && (
+                {wins.BIGGEST_WIN_2 !== 0 && (
                     <div>
                         <div>2. {getLabel(wins.NB_SELECTION_BIGGEST_WIN_2)}</div>
                         <div className="yellow">{wins.BIGGEST_WIN_2}&nbsp;€</div>
                     </div>
                 )}
-                {wins.BIGGEST_WIN_3 && (
+                {wins.BIGGEST_WIN_3 !== 0 && (
                     <div>
-                        <div>2. {getLabel(wins.NB_SELECTION_BIGGEST_WIN_3)}</div>
+                        <div>3. {getLabel(wins.NB_SELECTION_BIGGEST_WIN_3)}</div>
                         <div className="yellow">{wins.BIGGEST_WIN_3}&nbsp;€</div>
                     </div>
                 )}
-                {wins.BIGGEST_WIN_4 && (
+                {wins.BIGGEST_WIN_4 !== 0 && (
                     <div>
-                        <div>2. {getLabel(wins.NB_SELECTION_BIGGEST_WIN_4)}</div>
+                        <div>4. {getLabel(wins.NB_SELECTION_BIGGEST_WIN_4)}</div>
                         <div className="yellow">{wins.BIGGEST_WIN_4}&nbsp;€</div>
                     </div>
                 )}
-                {wins.BIGGEST_WIN_5 && (
+                {wins.BIGGEST_WIN_5 !== 0 && (
                     <div>
-                        <div>2. {getLabel(wins.NB_SELECTION_BIGGEST_WIN_5)}</div>
+                        <div>5. {getLabel(wins.NB_SELECTION_BIGGEST_WIN_5)}</div>
                         <div className="yellow">{wins.BIGGEST_WIN_5}&nbsp;€</div>
                     </div>
                 )}
