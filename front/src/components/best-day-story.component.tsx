@@ -1,5 +1,6 @@
 import React from 'react';
 import './best-day-story.component.css';
+import { dayMonth } from '../services/date.service';
 
 export const BestDayStory = ({ day, amount, bet }: { day: string; amount: number; bet: number }) => {
     return (
@@ -8,7 +9,7 @@ export const BestDayStory = ({ day, amount, bet }: { day: string; amount: number
                 <img src="/calendar.svg" alt="calendar" />
             </div>
             <div className="l">
-                le <span className="yellow">{day}</span>
+                le <span className="yellow">{dayMonth(day)}</span>
             </div>
             <div className="xs">tu as gagné</div>
             <div className="l yellow">{bet} Paris</div>

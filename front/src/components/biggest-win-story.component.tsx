@@ -1,5 +1,6 @@
 import React from 'react';
 import './biggest-win-story.component.css';
+import { dayMonth } from '../services/date.service';
 
 export const BiggestWinStory = ({ win, date, selection }: { date: string; win: number; selection: number }) => {
     const getLabel = (nbSelection: number) =>
@@ -14,7 +15,7 @@ export const BiggestWinStory = ({ win, date, selection }: { date: string; win: n
             <div className="yellow xl">
                 <span className="xxl">{win}</span>&nbsp;€
             </div>
-            <div className="xs">C'était le {date}</div>
+            <div className="xs">C'était le {dayMonth(date)}</div>
             <div className="xs">Tu as passé un {getLabel(selection)}</div>
         </div>
     );
