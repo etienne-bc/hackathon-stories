@@ -17,8 +17,8 @@ export const Username = () => {
     return (
         <div className="username">
             <img src="/Logo.svg" className="logo" alt="logo" />
-            <span>Merci de saisir votre username</span>
-            <input value={value} onChange={e => setValue(e.target.value)} type="search" />
+            <span>Merci de saisir ton username</span>
+            <input value={value} onChange={e => setValue(e.target.value)} type="search" autoFocus />
             <div>
                 {usernames.map(username => (
                     <a href={`/index.html?username=${username}`}>{username}</a>

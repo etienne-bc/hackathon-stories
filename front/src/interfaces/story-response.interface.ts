@@ -46,6 +46,30 @@ export interface LeastPreferedTeamStory extends BaseStory {
     };
 }
 
+export interface LuckiestWinStory extends BaseStory {
+    cardType: StoryTypeEnum.LuckiestWin;
+    payload: {
+        LUCKIEST_TEAM_1: string;
+        WIN_RATE_LUCKIEST_TEAM_1: number;
+    };
+}
+
+export interface LuckiestWinListStory extends BaseStory {
+    cardType: StoryTypeEnum.LuckiestWinList;
+    payload: {
+        LUCKIEST_TEAM_1: string;
+        WIN_RATE_LUCKIEST_TEAM_1: number;
+        LUCKIEST_TEAM_2: string;
+        WIN_RATE_LUCKIEST_TEAM_2: number;
+        LUCKIEST_TEAM_3: string;
+        WIN_RATE_LUCKIEST_TEAM_3: number;
+        LUCKIEST_TEAM_4: string;
+        WIN_RATE_LUCKIEST_TEAM_4: number;
+        LUCKIEST_TEAM_5: string;
+        WIN_RATE_LUCKIEST_TEAM_5: number;
+    };
+}
+
 export interface BiggestWinStory extends BaseStory {
     cardType: StoryTypeEnum.BiggestWin;
     payload: {
@@ -106,6 +130,40 @@ export interface BiggestOddsListStory extends BaseStory {
     };
 }
 
+export interface BestDayStory extends BaseStory {
+    cardType: StoryTypeEnum.BestDay;
+    payload: {
+        BEST_DAY_DATE_1: string;
+        BEST_DAY_WIN_AMOUNT_1: number;
+        BEST_DAY_NB_BET_1: number;
+    };
+}
+
+export interface BestDayListStory extends BaseStory {
+    cardType: StoryTypeEnum.BestDayList;
+    payload: {
+        BEST_DAY_DATE_1: string;
+        BEST_DAY_WIN_AMOUNT_1: number;
+        BEST_DAY_NB_BET_1: number;
+        BEST_DAY_DATE_2: string;
+        BEST_DAY_WIN_AMOUNT_2: number;
+        BEST_DAY_NB_BET_2: number;
+        BEST_DAY_DATE_3: string;
+        BEST_DAY_WIN_AMOUNT_3: number;
+        BEST_DAY_NB_BET_3: number;
+        BEST_DAY_DATE_4: string;
+        BEST_DAY_WIN_AMOUNT_4: number;
+        BEST_DAY_NB_BET_4: number;
+        BEST_DAY_DATE_5: string;
+        BEST_DAY_WIN_AMOUNT_5: number;
+        BEST_DAY_NB_BET_5: number;
+    };
+}
+
+export interface ThanksStory extends BaseStory {
+    cardType: StoryTypeEnum.Thanks;
+}
+
 export interface ContentCenter extends BaseStory {
     cardType: StoryTypeEnum.ContentCenter;
     payload: { title: string; image_url: string; text: string; link_text: string; app_link: string; web_link: string };
@@ -116,9 +174,14 @@ export type StoryResponse = Array<
     | FavoriteTeamStory
     | FavoriteTeamListStory
     | LeastPreferedTeamStory
+    | LuckiestWinStory
+    | LuckiestWinListStory
     | BiggestWinStory
     | BiggestWinListStory
     | BiggestOddsStory
     | BiggestOddsListStory
+    | BestDayStory
+    | BestDayListStory
     | ContentCenter
+    | ThanksStory
 >;

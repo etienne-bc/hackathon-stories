@@ -20,7 +20,7 @@ function App() {
 
     return (
         <>
-            <Stories stories={stories} defaultInterval={6000} width={'100vw'} height={'100vh'} />;
+            <Stories stories={stories} defaultInterval={6000} width={'100vw'} height={'100vh'} />
             <audio autoPlay={true} src="/win.mp3"></audio>
         </>
     );
